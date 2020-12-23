@@ -11,12 +11,12 @@ It combines a modified depth-first search strategy with backtracking, memorizati
 - <b>Actuators:</b> The agent has "actuators" for moving one tile forward and for rotating clockwise. 
 - <b>Sensor:</b> The agent has a "sensor" that it can use to determine the designation of the tile in front if it; however, using this sensor (referred to as "scanning") adds to the total number of actions taken by the agent.
 
-The project consists of four folders:
+The project consists of three folders:
 - <code>api</code> - <code>Javadoc</code> documentation of this project
 - <code>bin</code> - <code>.class</code> files
 - <code>src</code> - <code>.java</code> files (source codes)
 
-Besides the <code>Gold Miner.jar</code> file, it also includes the following files:
+Besides the <code>Gold Miner.jar</code> file, it also includes the following documents:
 - <code>Running Program Interface.pdf</code> - Screenshots of the interface of the system
 - <code>Technical Report.pdf</code> - Formal discussion of the behavior of the agent
 
