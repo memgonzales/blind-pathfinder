@@ -36,9 +36,20 @@ In the front-end interface, coordinates are one-based, that is, the upper left c
    d. Coordinates of the pits
    
    Note that the fields for (c) and (d) can be left blank should the user decide that beacons and/or pits are absent from the environment.
-3. Choose the level of intelligence of the agent. <br/>
-4. Choose the speed at which the actions of the agent are displayed. <br/>
+   
+   <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_1.JPG?raw=True" alt="Configuration" width = 300> 
+
+3. Select the level of intelligence of the agent. <br/>
+
+   <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_2.JPG?raw=True" alt="AI Intelligence" width = 300> 
+
+4. Select the speed at which the actions of the agent are displayed. <br/>
+
+   <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_3.JPG?raw=True" alt="Display Speed" width = 300>
+
 5. Once the board is displayed, click Proceed to begin the pathfinding.
+
+   <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_4.JPG?raw=True" alt="Board" width = 750> 
 
 ## Built Using
 This project was built using <b>Java</b>, with the <code>.class</code> files generated via <b>Java SE Development Kit 14</b>. The graphical user interface was created using <b>Swing</b>, a platform-independent toolkit that is part of the Java Foundation Classes. 
