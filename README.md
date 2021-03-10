@@ -4,7 +4,7 @@ This project is an intelligent system demonstrating the application of search st
 It combines a modified depth-first search strategy with backtracking, memorization of obtained details regarding the environment, and miscellaneous decision-making rules to minimize the number of actions.
 
 ## Task
-<b>Gold Miner</b> is the major course output for an introduction to intelligent systems class. Following the schema presented in the third edition of <i>Artificial Intelligence: A Modern Approach</i> by Russell and Norvig (2010), the PEAS description of the task is as follows:
+<b>Gold Miner</b> is a major course output for an introduction to intelligent systems class. Following the schema presented in the third edition of <i>Artificial Intelligence: A Modern Approach</i> by Russell and Norvig (2010), the PEAS description of the task is as follows:
 
 - <b>Performance Measure:</b> The rationality of the agent is measured by the average number of actions (moves, rotates, scans, and backtracks) taken to reach the square tile containing the pot of gold.
 - <b>Environment:</b> The environment is an <i>n</i> &times; <i>n</i> board, with the agent initially located on the upper left corner. Some tiles are <i>pits</i>, whihch will automatically trigger a game-over if the miner lands on one. There are also <i>beacons</i> that return the distance to the gold square tile provided that the gold square tile is located in any of the four cardinal directions of the beacon and there is no pit in between them. There is exactly one tile containing the <i>pot of gold</i>.
