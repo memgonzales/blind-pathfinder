@@ -7,21 +7,21 @@ It combines a modified depth-first search strategy with backtracking, memorizati
 <b>Gold Miner</b> is a major course output for an introduction to intelligent systems class. Following the schema presented in the third edition of <i>Artificial Intelligence: A Modern Approach</i> by Russell and Norvig (2010), the PEAS description of the task is as follows:
 
 - <b>Performance Measure:</b> The rationality of the agent is measured by the average number of actions (moves, rotates, scans, and backtracks) taken to reach the square tile containing the pot of gold.
-- <b>Environment:</b> The environment is an <i>n</i> &times; <i>n</i> board, with the agent initially located on the upper left corner. Some tiles are <i>pits</i>, whihch will automatically trigger a game-over if the miner lands on one. There are also <i>beacons</i> that return the distance to the gold square tile provided that the gold square tile is located in any of the four cardinal directions of the beacon and there is no pit in between them. There is exactly one tile containing the <i>pot of gold</i>.
+- <b>Environment:</b> The environment is an <i>n</i> &times; <i>n</i> board, with the agent initially positioned at the upper left corner. Some tiles are <i>pits</i>, which will automatically trigger a game-over if the miner lands on one. There are also <i>beacons</i> that return the distance to the gold square tile, provided that the gold square tile is located in any of the four cardinal directions of the beacon and there is no pit between them. There is exactly one tile containing the <i>pot of gold</i>.
 - <b>Actuators:</b> The agent has "actuators" for moving one tile forward and for rotating clockwise. 
-- <b>Sensor:</b> The agent has a "sensor" that it can use to determine the designation of the tile in front if it; however, using this sensor (referred to as "scanning") adds to the total number of actions taken by the agent.
+- <b>Sensor:</b> The agent has a "sensor" that it can use to determine the designation of the tile in front of it; however, using this sensor (referred to as "scanning") adds to the total number of actions taken by the agent.
 
 The project consists of three folders:
-- <code>api</code> - <code>Javadoc</code> documentation of this project
-- <code>bin</code> - <code>.class</code> files
-- <code>src</code> - <code>.java</code> files (source codes)
+- [<code>api</code>](https://github.com/memgonzales/blind-pathfinder/tree/main/api) - <code>Javadoc</code> documentation of this project
+- [<code>out</code>](https://github.com/memgonzales/blind-pathfinder/tree/main/out) - <code>.class</code> files
+- [<code>src</code>](https://github.com/memgonzales/blind-pathfinder/tree/main/src) - <code>.java</code> files (source codes)
 
-Besides the <code>Gold Miner.jar</code> file, it also includes the following documents:
-- <code>Running Program Interface.pdf</code> - Screenshots of the interface of the system
-- <code>Technical Report.pdf</code> - Formal discussion of the behavior of the agent
+Besides the [<code>Gold Miner.jar</code>](https://github.com/memgonzales/blind-pathfinder/blob/main/Gold%20Miner.jar) file, it also includes the following documents:
+- [<code>Running Program Interface.pdf</code>](https://github.com/memgonzales/blind-pathfinder/blob/main/Running%20Program%20Interface.pdf) - Screenshots of the interface of the system
+- [<code>Technical Report.pdf</code>](https://github.com/memgonzales/blind-pathfinder/blob/main/Technical%20Report.pdf) - Formal discussion of the behavior of the agent
 
 ## Using the Program
-In the front-end interface, coordinates are one-based, that is, the upper left corner is designated as (1, 1), the tile to its right is (1, 2), and the tile below it is (2, 1). Use a single space to separate the row- and column-coordinates, and a newline to separate pairs. For instance, if the coordinates of the pits are (2, 3), (3, 4), and (4,5), then the input should be:
+In the front-end interface, coordinates are one-based, i.e., the upper left corner is designated as (1, 1), the tile to its right is (1, 2), and the tile below it is (2, 1). Use a single space to separate the row- and column-coordinates, and a newline to separate pairs. For instance, if the coordinates of the pits are (2, 3), (3, 4), and (4,5), then the input should be:
 ```
 2 3
 3 4
@@ -43,7 +43,7 @@ In the front-end interface, coordinates are one-based, that is, the upper left c
 
    <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_2.JPG?raw=True" alt="AI Intelligence" width = 300> 
 
-4. Select the speed at which the actions of the agent are displayed. <br/>
+4. Select the speed at which the agent's actions are to be displayed. <br/>
 
    <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_3.JPG?raw=True" alt="Display Speed" width = 300>
 
@@ -63,4 +63,4 @@ This project was built using <b>Java</b>, with the <code>.class</code> files gen
   hylene_jules_lee@dlsu.edu.ph <br/>
   lee.hylene@gmail.com
   
- Assets (images) are properties of their respective owners. Attribution is found in the file <code>src/gui/assets/asset-credits.txt</code>.
+ Assets (images) are properties of their respective owners. Attribution is found in the file [<code>src/gui/assets/asset-credits.txt</code>](https://github.com/memgonzales/blind-pathfinder/blob/main/src/gui/assets/asset-credits.txt).
