@@ -28,15 +28,13 @@ In the front-end interface, coordinates are one-based, i.e., the upper left corn
 4 5
 ```
 
-1. Open the <code>.jar</code> file.
+1. Open the [<code>.jar</code>](https://github.com/memgonzales/blind-pathfinder/blob/main/Gold%20Miner.jar) file.
 2. Input the following information: <br/>
    a. Dimension (length) of the square board (between 8 and 64, inclusive) <br/>
    b. Coordinates of the tile containing the pot of gold <br/>
-   c. Coordinates of the beacons <br/>
-   d. Coordinates of the pits
-   
-   Note that the fields for (c) and (d) can be left blank should the user decide that beacons and/or pits are absent from the environment.
-   
+   c. [Optional] Coordinates of the beacons <br/>
+   d. [Optional] Coordinates of the pits
+      
    <img src="https://github.com/memgonzales/blind-pathfinder/blob/main/system_screenshots/GoldMiner_1.JPG?raw=True" alt="Configuration" width = 300> 
 
 3. Select the level of intelligence of the agent. <br/>
