@@ -21,7 +21,7 @@ Besides the [<code>Gold Miner.jar</code>](https://github.com/memgonzales/blind-p
 - [<code>Technical Report.pdf</code>](https://github.com/memgonzales/blind-pathfinder/blob/main/Technical%20Report.pdf) - Formal discussion of the behavior of the agent
 
 ## Using the Program
-In the front-end interface, coordinates are one-based, i.e., the upper left corner is designated as (1, 1), the tile to its right is (1, 2), and the tile below it is (2, 1). Use a single space to separate the row- and column-coordinates, and a newline to separate pairs. For instance, if the coordinates of the pits are (2, 3), (3, 4), and (4,5), then the input should be:
+In the front-end interface, coordinates are one-based, i.e., the upper left corner is designated as `(1, 1)`, the tile to its right is `(1, 2)`, and the tile below it is `(2, 1)`. Use a single space to separate the row- and column-coordinates, and a newline to separate pairs. For instance, if the coordinates of the pits are `(2, 3)`, `(3, 4)`, and `(4, 5)`, then the input should be:
 ```
 2 3
 3 4
