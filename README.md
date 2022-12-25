@@ -1,4 +1,7 @@
 # Blind Pathfinder (Gold Miner)
+
+![badge](https://img.shields.io/badge/language-Java-orange.svg)
+
 This project is an intelligent system demonstrating the application of search strategies in the context of mostly-uninformed pathfinding in an environment with obstacles. In particular, the agent is a <b>gold miner</b> tasked to reach the square tile containing the pot of gold &mdash; the location of which is not disclosed to the agent &mdash; while avoiding obstacles (pits) and taking advantage of hints from beacons. 
 
 It combines a modified depth-first search strategy with backtracking, memorization of obtained details regarding the environment, and miscellaneous decision-making rules to minimize the number of actions.
